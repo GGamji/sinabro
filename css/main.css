@@ -1,0 +1,224 @@
+button {
+  cursor: pointer;
+}
+.blind {
+  display: block;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
+/* Header */
+header {
+  background-image: url(../img/mainvisual.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.inner {
+  padding: 0.8% 3%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+h1 a {
+  display: block;
+  width: 168px;
+  height: 50px;
+  background-image: url(../img/logo_bgx.png);
+}
+#gnb .dep1 {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  font-size: 18px;
+  font-family: "AritaDotumKR-SemiBold";
+}
+#gnb .dep1 > li {
+  position: relative;
+}
+#gnb .dep2_wrap {
+  display: none;
+  position: absolute;
+  top: 48px;
+  right: 0;
+  left: -40px;
+  width: 180px;
+  height: 150px;
+  background: #fff;
+  opacity: 50%;
+}
+#gnb .dep2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 10%;
+  font-family: "AritaDotumKR-Medium";
+}
+header .header_util {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+/* Main */
+main .visual_txt_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  right: 5%;
+  bottom: 20%;
+  text-align: end;
+}
+main .visual_name {
+  font-family: "SCDream6";
+  font-size: 50px;
+  color: #fff;
+}
+main .highlight {
+  font-family: "Pretendard-SemiBold";
+}
+main .visual_content {
+  font-family: "Pretendard-Light";
+  color: #fff;
+  font-size: 32px;
+  line-height: 1.5em;
+}
+
+/* Bestseller */
+main .title {
+  font-family: "AritaBuriKR-SemiBold";
+  font-size: 45px;
+  letter-spacing: 10px;
+}
+main .bestseller {
+  padding: 10% 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "AritaDotumKR-Medium";
+}
+main .bestseller > span {
+  padding: 1% 0 0 0;
+  font-size: 20px;
+}
+main .allproduct {
+  padding: 10% 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "AritaDotumKR-Medium";
+}
+main .allproduct > span {
+  padding: 1% 0 0 0;
+  font-size: 20px;
+}
+main .newproduct {
+  padding: 10% 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "AritaDotumKR-Medium";
+}
+main .newproduct > span {
+  padding: 1% 0 0 0;
+  font-size: 20px;
+}
+main .content_box {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 5% 0;
+}
+main .content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .content .txt_box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "AritaDotumKR-Medium";
+}
+main .product_title {
+  font-family: "AritaDotumKR-SemiBold";
+  font-size: 20px;
+}
+main .price {
+  font-size: 18px;
+}
+main .keyword_box {
+  font-size: 14px;
+  color: #fff;
+}
+main .keyword_box span {
+  background: #eadace;
+  padding: 5px;
+}
+main .brandstory {
+  font-family: "Pretendard-Light";
+  font-size: 26px;
+  position: relative;
+  display: flex;
+  padding: 5% 0 0;
+}
+main .brandstory .brandstory_txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  top: 65%;
+  right: 0;
+  left: 0;
+  transform: translateY(-65%);
+  color: #fff;
+}
+main .brandstory_txt span:first-child {
+  font-family: "The_Tuesday_of_Younah";
+  font-size: 31px;
+}
+main .brandstory_txt span:last-child {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* Footer */
+.footer_box {
+  padding: 5% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_box .footer_txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "AritaDotumKR-Medium";
+}
+.footer_box .footer_txt .highlight {
+  font-family: "AritaDotumKR-SemiBold";
+}
+.footer_box .txt_company {
+  display: flex;
+  gap: 10px;
+}
+.footer_box .txt_centent {
+  display: flex;
+  gap: 10px;
+}
+.footer_box .txt_license {
+  display: flex;
+  gap: 10px;
+}
+.footer_box a {
+  display: block;
+  width: 168px;
+  height: 50px;
+  background-image: url(../img/logo_bgx.png);
+}
