@@ -43,18 +43,42 @@ h1 a {
   left: 0;
   width: 100%;
   height: 300px;
-  background: #fff;
-  opacity: 50%;
+  background: rgba(255, 255, 255, 0.5);
 }
-#gnb .dep2 {
+#gnb .dep2_1 {
+  position: absolute;
+  top: 0;
+  left: 38.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   padding-top: 5%;
   font-family: "AritaDotumKR-Medium";
-  color: #000;
 }
+#gnb .dep2_2 {
+  position: absolute;
+  top: 0;
+  left: 48.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 5%;
+  font-family: "AritaDotumKR-Medium";
+}
+#gnb .dep2_3 {
+  position: absolute;
+  top: 0;
+  left: 58.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 5%;
+  font-family: "AritaDotumKR-Medium";
+}
+
 header .header_util {
   display: flex;
   align-items: center;
